@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.favoriteview.FavoriteView
+        android:id="@+id/fv0"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:default_color="@color/gray"
+        app:drawable="@drawable/ic_favorite"
+        app:pressed_color="@color/red" />
+
+    <com.example.favoriteview.FavoriteView
+        android:id="@+id/fv1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        app:default_color="@color/gray"
+        app:drawable="@drawable/ic_bookmark"
+        app:pressed_color="@color/red" />
+
+    <com.example.favoriteview.FavoriteView
+        android:id="@+id/fv2"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        app:default_color="@color/gray"
+        app:drawable="@drawable/ic_lightbulb"
+        app:pressed_color="@color/red" />
+
+    <com.example.favoriteview.FavoriteView
+        android:id="@+id/fv3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        app:default_color="@color/gray"
+        app:drawable="@drawable/ic_fire"
+        app:pressed_color="@color/red" />
+
+    <com.example.favoriteview.FavoriteView
+        android:id="@+id/fv4"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        app:default_color="@color/gray"
+        app:drawable="@drawable/ic_thumb_up"
+        app:pressed_color="@color/red" />
+</LinearLayout>
